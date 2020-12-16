@@ -8,7 +8,7 @@ TASK: test
 import java.io.*;
 import java.util.*;
 
-class test {
+public class test {
   public static void main (String [] args) throws IOException {
     // Use BufferedReader rather than RandomAccessFile; it's much faster
     BufferedReader f = new BufferedReader(new FileReader("test.in"));
