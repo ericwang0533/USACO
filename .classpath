@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="Current Contests"/>
 	<classpathentry kind="src" path="Past Contests"/>
-	<classpathentry kind="src" path="Official Training Website"/>
 	<classpathentry kind="src" path="Other"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-14">
 		<attributes>
