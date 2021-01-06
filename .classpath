@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="Past Contests (Unorganized)"/>
+	<classpathentry kind="src" path="Silver/2019 Jan"/>
 	<classpathentry kind="src" path="Silver/2018 Jan"/>
 	<classpathentry kind="src" path="Silver/2020 Dec"/>
 	<classpathentry kind="src" path="Other"/>
