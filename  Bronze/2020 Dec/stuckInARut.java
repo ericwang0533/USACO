@@ -1,7 +1,7 @@
 import java.util.*;
 import java.awt.Point;
 import java.io.*;
-public class third {
+public class stuckInARut {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt();
 	public static String[] direct = new String[n];

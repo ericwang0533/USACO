@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class first {
+public class doYouKnowYourABCs {
 	public static FastReader in = new FastReader();
 	//public static int[] arr = {in.nextInt(), in.nextInt(), in.nextInt(), in.nextInt(), in.nextInt(), in.nextInt(), in.nextInt()};
 	public static ArrayList<Integer> arr = new ArrayList<Integer>();

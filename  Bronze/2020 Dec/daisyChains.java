@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class second {
+public class daisyChains {
 	public static FastReader in = new FastReader();
 	public static int n = in.nextInt();
 	public static int[] arr = new int[n];
