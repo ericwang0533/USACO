@@ -1,10 +1,10 @@
 # USACO
 My [USACO](http://usaco.org) solutions
 ## [Bronze](Bronze)
-Passed Bronze during the 2020 Dec Contest with a score of 867 (cutoff was 800)
+Passed Bronze Problems 
 
 ## [Silver](Silver)
-Currently in Silver
+Past Silver Problems
 
 ## [Past Contests (Unorganized)](Past%20Contests%20(Unorganized))
 Past Contest problems that I did for preparation
