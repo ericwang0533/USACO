@@ -1,7 +1,7 @@
 # USACO
 My [USACO](http://usaco.org) solutions
 ## [Bronze](Bronze)
-Passed Bronze Problems 
+Past Bronze Problems 
 
 ## [Silver](Silver)
 Past Silver Problems
