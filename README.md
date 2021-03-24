@@ -7,7 +7,8 @@ Past Bronze Problems
 Past Silver Problems
 
 ## [Past Contests (Unorganized)](Past%20Contests%20(Unorganized))
-Past Contest problems that I did for preparation
+Unorganized Past Contest Problems 
 
 ## [Other](Other)
-Other non-USACO problems that I did for preparation (excludes training website problems)
+Other non-USACO problems that I did for preparation (excludes training website problems)  
+USACO Training Website Repo: https://github.com/Ericspk33/USACO-Training-Website
