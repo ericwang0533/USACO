@@ -2,6 +2,19 @@ import java.util.*;
 import java.io.*;
 public class udderedButNotHerd {
 	public static void main(String[] args) {
+
+
+		// char letterA = 'a';
+		// char letterB = 'b';
+		// System.out.println(letterA-96);
+		// System.out.println(letterB-96);
+	
+
+		String hello = "hello";
+		System.out.println(hello.substring(1)); 
+		String ell = "llooooooo";
+		System.out.println(hello.indexOf(ell));
+		
 		Scanner in = new Scanner(System.in);
 		String cowphabet = in.nextLine();
 		String hum = in.nextLine();

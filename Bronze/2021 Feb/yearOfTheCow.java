@@ -21,6 +21,48 @@ public class yearOfTheCow {
 	    zodiac.put("Dog", 9);
 	    zodiac.put("Pig", 10);
 	    zodiac.put("Rat", 11);
+
+
+		// hashmap
+		// key and a value
+		HashMap<Integer, String> ids = new HashMap<>();
+		ids.put(306650, "Eric Wang");
+		ids.put(32, "bob");
+		ids.put(32, "joe"); // joe overides bob here because they have the same key
+		// System.out.println(ids);
+
+		// System.out.println(ids.get(306650));
+		// System.out.println(ids.size());
+
+		// ids.remove("ids")
+
+
+		// 2d arrays (row by column)
+		// by default, all integer arrays are all filled w/ 0s
+		int[][] chart = new int[7][2]; 
+		System.out.println(chart.length); // chart.length always gives us the amount of rows
+		System.out.println("hi" + chart[0].length); // chart[0].length gives the length of array chart[0] which is a row so it gives the number of columnsß
+
+		// System.out.println(Arrays.toString(chart)); // this wont work
+
+		System.out.println(Arrays.deepToString(chart));
+
+		// for(int i = 0; i < chart.length; i++){
+		// 	System.out.println(Arrays.toString(chart[i]));
+		// }
+
+
+		// for(int i = 0; i < chart.length; i++){
+		// 	for(int j = 0; j < chart[0].length; j++){
+		// 		System.out.println(chart[i][j]);
+		// 	}
+		// }
+
+
+
+
+		// recursion 
+
 		
 		Scanner in = new Scanner(System.in);
 		int n = Integer.parseInt(in.nextLine());
@@ -33,7 +75,7 @@ public class yearOfTheCow {
 			// line[4] = zodiac
 			// line[7] = cow2 name
 			
-//			System.out.println(Arrays.toString(line));
+			System.out.println(Arrays.toString(line));
 			
 			// add the new cow into cowZodiac hashmap
 			cowZodiac.put(line[0], line[4]);
@@ -52,7 +94,7 @@ public class yearOfTheCow {
 				else {
 					diff = cow.get(line[7]) - (12 - zodiac.get(line[4]) + zodiac.get(cowZodiac.get(line[7])));// 					
 				}
-//				System.out.println(diff );
+				System.out.println(diff);
 				cow.put(line[0], diff);
 			}
 			else {
@@ -74,8 +116,8 @@ public class yearOfTheCow {
 				cow.put(line[0], diff);
 			}
 			
-//			System.out.println(cow);
-//			System.out.println(cowZodiac);
+			System.out.println(cow);
+			System.out.println(cowZodiac);
 //			System.out.println();
 		}
 
@@ -85,3 +127,7 @@ public class yearOfTheCow {
 	}
 	
 }
+
+
+
+// String[] line = in.nextLine().split(" ");

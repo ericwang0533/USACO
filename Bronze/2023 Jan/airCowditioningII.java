@@ -12,19 +12,52 @@ public class airCowditioningII {
     public static int[] reduce;
     public static int[] costt;
 
-    public static int[] stalls = new int[101];
+    public static int[] stalls = new int[101];      // ignore stalls[0] and just pretend its a 100 length array from 1-->100
     public static int lowCost = Integer.MAX_VALUE;
     // public static in
 
     public static void main(String[] args) throws IOException {
         input();
-        // debugInput();
+        debugInput();
 
         // recursive function moment
         for(int i = 0; i < m; i++){
             int[] copy = stalls.clone();
             recurse(copy, 0, i);
         }
+
+
+        // read in input
+        // call a recursion function for every stall 
+        // recurse function does
+            // check if all conditions have been met (all cows have ac satisfied)
+                // true? check if its cheapest; return
+
+            // turn on the ac (update the array)
+            // for loop
+                // recurse the next acs
+
+
+        // recursion tree
+        // 0 
+            // 01
+                // 012
+                    // 0123
+                // 013
+            // 02
+                // 023
+            // 03
+
+        // 1
+            // 12
+                // 123
+            // 13
+        
+        // 2
+            // 23
+
+        // 3
+
 
         System.out.println(lowCost);
 
